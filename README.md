@@ -6,17 +6,16 @@ language:
 - en
 metrics:
 - accuracy
-library_name: adapter-transformers
 pipeline_tag: text-classification
 tags:
 - code
 widget:
-- text: "People are fun to talk."
-  example_title: "Neither Speech"
-- text: "Black people are good at running."
-  example_title: "Hate Speech"
-- text: "And I'm goin back to school, only for the hoes and a class or two."
-  example_title: "Offensive Speech"
+- text: People are fun to talk.
+  example_title: Neither Speech
+- text: Black people are good at running.
+  example_title: Hate Speech
+- text: And I am goin back to school, only for the hoes and a class or two.
+  example_title: Offensive Speech
 ---
 
 
